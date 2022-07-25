@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/foto.jpg);
+}
+
+.hero-two {
+    background-color: #EC7063;
+}
+
+.hero-th {
+    background-color: #EC7063;
+}
+
+/*body {
+    background-image: radial-gradient(circle at 25.82% -16.45%, #fb9b5f 0, #f79259 25%, #f28953 50%, #ed7f4d 75%, #e87648 100%);
+
+}*/
+
+.logo {
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 3%;
+    padding-right: 8%;
+}
+
+span {
+    color: #f9004d;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 25px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 10px;      
+}
+
+nav ul li a:hover {
+    background-color:#f9004d ;
+    color: aliceblue;
+    border-radius: 15px;
+    transition: transform .6s; /*Lo que tarda el efecto en irse*/
+
+    /*transform: scale(3.12);*/
+}
+
+.contenido {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1 {
+    color: aliceblue;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3 {
+    color: aliceblue;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+h4 {
+    color: #F1948A;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.datos {
+    color: aliceblue;
+    font-size: 80;
+}
+
+/* --- Vista Biografía ---*/
+
+#titulo {
+    color: aliceblue;
+    text-align: center;
+    margin: 45px 0px 20px;
+    font-size: 40px;
+}
+
+#subtitulo {
+    color: aliceblue;
+    text-align: center;
+    margin: 45px 0px 20px;
+    font-size: 40px;
+}
+
+.foto {
+    width: 200px;
+    margin: 10px;
+    border-radius: 80px;
+}
+
+.biografia-content {
+    text-align: center;
+}
+
+#parrafo {
+    color: aliceblue;
+    text-align: justify;
+    margin: 10px 200px 0px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/*CSS de Videos*/
+
+#contenido-vd {
+    margin: 120px 50px 0px;
+}
+
+.img-videos {
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+.parrafo-vd {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 25px; /*Margen para todos los bardes*/
+}
+
+.links {
+    margin: 120px 20px 0px;
+}
